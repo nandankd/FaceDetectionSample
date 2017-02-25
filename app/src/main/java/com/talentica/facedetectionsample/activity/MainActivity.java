@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         if (!detector.isOperational()) {
-
+        //sample
         } else {
             Frame frame = new Frame.Builder().setBitmap(bitmap).build();
             mFaces = detector.detect(frame);
